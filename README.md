@@ -1,5 +1,3 @@
-## Project Status
-
 ![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
 ![Flask](https://img.shields.io/badge/flask-v2.0+-lightgrey.svg)
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -41,6 +39,17 @@ A lightweight Flask web application for chatting with local LLM models through O
 - **Instance Management**: Priority-based with health checks
 - **Caching**: LRU cache for language detection
 - **Theme System**: CSS-based theming with dynamic switching
+
+## Screenshots
+
+<div align="center">
+
+| Screenshot 1 | Screenshot 2 | Screenshot 3 |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+| ![image](https://github.com/user-attachments/assets/b4b9b3e1-81f9-48cf-bab8-9962554863be) | ![image](https://github.com/user-attachments/assets/2694f627-4aa1-460f-b399-65d4307b9a37) | ![image](https://github.com/user-attachments/assets/c5a6162c-f354-432b-b1ec-143f33c081d3) |
+| Dark theme | Responsive | White theme |
+
+</div>
 
 ## Requirements
 
@@ -172,7 +181,9 @@ The Raspberry Pi 5 makes an excellent host for LLM Chat Lite in a local network 
 - SD card/SSD for storage (minimum 32GB recommended)
 - Stable network connection
 
-#### Approximate Installation Steps
+--------------
+
+## Approximate Installation Steps
 1. Install Raspberry Pi OS (64-bit):
 ```bash
 # Download and flash latest Raspberry Pi OS 64-bit
