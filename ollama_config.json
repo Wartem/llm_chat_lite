@@ -1,0 +1,16 @@
+{
+    "ollama_instances": [
+        {
+            "url": "http://192.168.68.117:11434",
+            "priority": 2,
+            "name": "Backup - Raspberry Pi 5",
+            "description": "Raspberry Pi 5 (Primary)"
+        },
+        {
+            "url": "http://192.168.68.114:11434",
+            "priority": 1,
+            "name": "Primary - 5950x",
+            "description": "Windows PC (Backup)"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "theme": "dark",
+    "themes": {
+        "dark": "static/style.css",
+        "bright": "static/bright_style.css"
+    }
+}
