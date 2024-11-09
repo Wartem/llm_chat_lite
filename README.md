@@ -3,16 +3,20 @@
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
 ![Platform](https://img.shields.io/badge/platform-linux%20%7C%20windows-lightgrey)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 ![Status](https://img.shields.io/badge/status-active-success.svg)
-[![Security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
 ![Flask SSE](https://img.shields.io/badge/Flask-SSE-blue)
 ![Ollama](https://img.shields.io/badge/Ollama-Compatible-brightgreen)
 ![Translation](https://img.shields.io/badge/Translation-Supported-success)
 ![UI](https://img.shields.io/badge/UI-Responsive-blue)
 ![Theme](https://img.shields.io/badge/Theme-Dark%20%7C%20Light-lightgrey)
+![License](https://img.shields.io/badge/License-GNU%20GPL%20v3-blue.svg)
+![Google Translate](https://img.shields.io/badge/Google%20Translate-API-yellow)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-Compatible-C51A4A)
+![googletrans](https://img.shields.io/badge/googletrans-4.0+-orange)
+![SSE](https://img.shields.io/badge/SSE-Streaming-green)
+![ARM](https://img.shields.io/badge/ARM-v8%20Compatible-red)
+![Network](https://img.shields.io/badge/Network-Local%20%7C%20Internet-blue)
 
 # LLM Chat Lite
 
