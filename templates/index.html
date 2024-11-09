@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM Chat Lite</title>
+    <link rel="stylesheet" href="{{ theme_path }}">
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.2/marked.min.js" defer></script>
+</head>
+<body>
+    <div class="app-container">
+        <div class="chat-container">
+            <header class="chat-header">
+                <div class="header-content">
+                    <div class="model-info">
+                        <span class="model-label">Current Model:</span>
+                        <span id="current-model" class="model-name">Checking...</span>
+                    </div>
+                    <div class="instance-status">
+                        <div class="status-item">
+                            <span>Backup - Raspberry Pi 5</span>
+                            <span class="status-indicator healthy"></span>
+                        </div>
+                        <div class="status-item">
+                            <span>Primary - 5950x</span>
+                            <span class="status-indicator healthy"></span>
+                        </div>
+                    </div>
+                    <div class="theme-toggle">
+                        <button onclick="toggleTheme()" class="theme-button">
+                            Toggle Theme
+                        </button>
+                    </div>
+                    <button class="reset-button" onclick="resetChat()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+                            <path d="M3 3v5h5"></path>
+                        </svg>
+                        Reset Chat
+                    </button>
+                </div>
+            </header>
+            
+            <main class="chat-messages" id="chat-messages"></main>
+            
+            <footer class="input-container">
+                <input 
+                    type="text" 
+                    id="user-input" 
+                    placeholder="Type your message..." 
+                    autocomplete="off"
+                    autofocus
+                >
+                <button id="send-button" onclick="sendMessage()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                </button>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
