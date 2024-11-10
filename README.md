@@ -68,7 +68,7 @@ A lightweight Flask web application for chatting with local LLM models through O
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/llm-chat-lite.git
+git clone https://github.com/wartem/llm-chat-lite.git
 cd llm-chat-lite
 ```
 
