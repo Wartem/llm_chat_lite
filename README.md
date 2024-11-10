@@ -177,7 +177,7 @@ The application uses Python's logging module. Set `debug=True` in `app.run()` fo
 
 ## Local Network Setup with Raspberry Pi 5
 
-The Raspberry Pi 5 makes an excellent host for LLM Chat Lite in a local network setting. Here's a complete setup guide:
+The Raspberry Pi 5 makes an excellent host for LLM Chat Lite in a local network setting. Here's a general setup guide:
 
 #### Hardware Requirements
 - Raspberry Pi 5 (minimum 8GB RAM recommended)
@@ -185,7 +185,7 @@ The Raspberry Pi 5 makes an excellent host for LLM Chat Lite in a local network 
 - SD card/SSD for storage (minimum 32GB recommended)
 - Stable network connection
 
-### Approximate Installation Steps 
+### General Installation Steps 
 1. Install Raspberry Pi OS (64-bit):
 ```bash
 # Download and flash latest Raspberry Pi OS 64-bit
